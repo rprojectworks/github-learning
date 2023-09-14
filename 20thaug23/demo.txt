@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My frist webpage</title>
+    <style>
+        .main{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">this is div</div>
+<section class="main">this is section</section>
+<p class="main">this is p</p>
+
+<a href="https://www.google.com">this is a </a>
+</body>
+</html>
+1st step:
+div,section,article
+CSS and types
+box model
+netlify deployment
+webkata
+
+div vs section :
+section has some similar set of elements
+whereas in div that is not the case
+it can have different set of elements
+<div>this is div</div>
+<section>this is section</section>
+<article>this is article</article>
+
+What is CSS:
+cascaded style sheet 
+Types of CSS:
+1.inline
+2.internal 
+3.external
+
+All the properties of CSS can be in terms of property=value pair
+
+Inline CSS can be applied inside the tag itself using the style attribute
+
+Internal Css:
+it can be applied by using the <style></style> tag
+selectors
+class,id,tag,*
+class selector:
+Syntax: 
+.classname{
+
+}
+class selector can be applied for more than 1 elements
+1. For a single element can i apply class as well as id attribute??
+yes:
+2. if yes is abve answer then which color will render 
+priorites:
+Inline>id>class
+id selector will be having the highest priority
+compared to id ,Inline CSS will be having highest priority
+idname is applicable only for the one element
+it is refered using id attribute
+idname is userdefined
+
+1. For a single element can i apply class as well as id attribute??
+yes:
+2. if yes is abve answer then which color will render 
+priorites:
+Inline>id>class
+id selector will be having the highest priority
+compared to id ,Inline CSS will be having highest priority
+
+External CSS:
+To connect external css we need link tag
+<link rel="stylesheet" href="index.css">
+here rel stands for relation between documents
+href stands for the link where file exists
+
+inline>internal>external
